@@ -16,30 +16,30 @@ import { useTranslation } from "react-i18next";
 import { useRouter } from "next/router";
 
 export const Languages = [
-  {
+   {
     lng: "vi",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/1599px-Flag_of_Vietnam.svg.png",
+      "/assets/Vietnam.svg",
   },
   {
     lng: "cn",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/125px-Flag_of_the_People%27s_Republic_of_China.svg.png",
+      "/assets/China.svg",
   },
   {
     lng: "en",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/600px-Flag_of_the_United_Kingdom_%281-2%29.svg.png",
+      "/assets/Kingdom.svg",
   },
   {
     lng: "th",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/125px-Flag_of_Thailand.svg.png",
+      "/assets/Thailand.svg",
   },
   {
     lng: "kr",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/125px-Flag_of_South_Korea.svg.png",
+      "/assets/Korea.svg",
   },
 ];
 
