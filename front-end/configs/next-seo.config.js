@@ -1,8 +1,8 @@
 const NextSeoConfig = {
   title: null,
-  titleTemplate: "%s | GALAXY CASINO MACAU",
-  defaultTitle: "GALAXY CASINO MACAU",
-  description: "GALAXY CASINO MACAU - Hệ thống casino trực tuyến",
+  titleTemplate: "%s | PARI CASINO MACAU",
+  defaultTitle: "PARI CASINO MACAU",
+  description: "PARI CASINO MACAU - Hệ thống casino trực tuyến",
   additionalMetaTags: [
     {
       property: "keywords",
@@ -23,8 +23,8 @@ const NextSeoConfig = {
     type: "website",
     locale: "vi_VN",
     url: process.env.NEXTAUTH_URL,
-    siteName: "GALAXY CASINO MACAU",
-    description: "GALAXY CASINO MACAU",
+    siteName: "PARI CASINO MACAU",
+    description: "PARI CASINO MACAU",
     images: [
       {
         url: "/assets/images/logo33.png",
